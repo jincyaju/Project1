@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind+Madurai:wght@300&family=Josefin+Sans:wght@300&family=Overpass:wght@100&family=Pacifico&family=Philosopher&family=Roboto:wght@300&family=Satisfy&family=Teko:wght@300&display=swap');
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Teko', sans-serif; */
+
+
+
+.row{
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: yellow;
+    position: sticky;
+    
+    top: 0px;
+}
+.rowa{
+    padding: 10px;
+    width: 7%;
+    height: 60px;
+    background-color: black;
+    font-family: 'Philosopher', sans-serif;
+
+    float: left;
+    top: 0px;
+}
+.row-a{
+    width: 40%;
+}
+.p5{
+    font-size: medium;
+    text-align: center;
+   font-family: 'Philosopher', sans-serif;
+    
+    }
+.p2{
+    font-size: medium;
+    text-align: left;
+    color: royalblue;
+    font-family: 'Philosopher', sans-serif;
+    margin-left:30px;
+    }
+.p0{
+    font-size: small;
+    text-align: left;
+    color: white;
+    font-family: 'Pacifico', cursive;
+  
+    margin-top: -5px;
+    }
+.p2a{
+    font-size: 400%;
+    text-align: center;
+    color: yellow;
+   
+        }
+.row1{
+    background-image: url("./images/background1.jpg");
+    /* background-repeat: no-repeat; */
+    background-size:  cover;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+}
+.p3{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+img{
+    width: 20%;
+    height: 45px;
+}
+.image{
+    width: 100%;
+    height: 300px;
+}
+.buttona{
+    width: 150px;
+    height: 50px;
+    margin-top: 18%;
+    margin-left: 42%;
+    background-color: rgba(0, 211, 28, 0.336);
+    color: white;
+    border-radius: 20px;
+
+}
+.button1{
+    width: 150px;
+    height: 50px;
+    margin-left: 42%;
+    background-color: rgba(0, 211, 28, 0.336);
+    color: white;
+    border-radius: 20px;
+
+}
+.buttonb{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 240px;
+    background-color: pink;
+    color: white;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: white;
+    color: darkviolet;
+}
+.head1{
+    text-align: center;
+    margin-top: 50px;
+    color: chocolate;
+    font-family: 'Pacifico', cursive;
+
+}
+.head2{
+    text-align: center;
+    color: crimson;
+    font-family: 'Pacifico', cursive;
+
+}
+.head3{
+    text-align: left;
+    color: crimson;
+    font-family: 'Pacifico', cursive;
+
+}
+.head4{
+/* font-family: 'Great Vibes', cursive; */
+/* font-family: 'Hind Madurai', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Overpass', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+font-family: 'Philosopher', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Satisfy', cursive; */
+
+}
+p{
+    font-family: 'Philosopher', sans-serif;
+    text-align: justify;
+}
+.p4{
+    
+    font-size:x-large;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+.cola{
+    width:30%;
+    background-color: black;
+    color: white;
+    float: left;
+    padding:10px;
+}
+.col-a{
+    padding: 30px;
+}
+.col-b{
+    padding: 20px;
+}
+.footer{
+    margin-top: 10%;
+    width: 100%;
+    /* height: 400px; */
+    background-color: black;
+    float: left;
+    align-items: center;
+}
+
+.box{
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    /* float: left; */
+    width:100%;
+    height: 250px;
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+.boxa{
+    margin-left: 40px;
+   
+    float: left;
+    width:28%;
+    /* height: 150px; */
+    background-color: aquamarine;
+    transition: 1s ease-in-out;
+}
+.boxa:hover{
+    transform: scale(1.5);
+}
+.boxb{
+    margin-left: 40px;
+   
+    float: left;
+    width:28%;
+    /* height: 150px; */
+    background-color: papayawhip;
+    transition: 1s ease-in-out;
+}
+.boxb:hover{
+    transform: scale(1.5);
+}
+.parent{
+    /* margin-top: 20px; */
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    /* float: left; */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col{
+    transition: 1s ease-in-out;
+    width: 30%;
+       /* float: left; */
+    /* height: 400px; */
+    border: 2px solid white;
+}
+.col:hover{
+    transform: scale(1.5);
+}
+.form1{
+    margin-left: 350px;
+    width: 60%;
+    height: 300px;
+    align-items: center;
+}
